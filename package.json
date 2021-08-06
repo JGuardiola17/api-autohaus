@@ -1,0 +1,30 @@
+{
+  "name": "api-autohaus",
+  "version": "1.0.0",
+  "description": "Autohaus api challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r @babel/register -r @babel/polyfill -r dotenv/config server.js"
+  },
+  "author": "Jose Guardiola",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/register": "^7.14.5",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
